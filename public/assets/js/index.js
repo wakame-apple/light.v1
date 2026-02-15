@@ -52,7 +52,7 @@ class crypts {
 function search(input) {
   input = input.trim();  // Trim the input to remove any whitespace
   // Retrieve the search engine URL template from localStorage or use default
-  const searchTemplate = 'https://google.com/search?q=%s';
+  const searchTemplate = 'https://duckduckgo.com/search?q=%s';
 
   try {
     // Try to treat the input as a URL
